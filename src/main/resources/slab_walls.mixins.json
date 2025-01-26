@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.atjdesign.slab_walls.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

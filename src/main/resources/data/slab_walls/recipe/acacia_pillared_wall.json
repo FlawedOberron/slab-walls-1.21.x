@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_pillared_wall",
+  "pattern": [
+    "WLW"
+  ],
+  "key": {
+    "W": "minecraft:acacia_slab",
+    "L": "minecraft:acacia_log"
+  },
+  "result": {
+    "id": "slab_walls:acacia_pillared_wall",
+    "count": 4
+  }
+}

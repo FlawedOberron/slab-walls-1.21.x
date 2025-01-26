@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "slab_walls:cobblestone_trim",
+    "slab_walls:mossy_cobblestone_trim",
+    "slab_walls:stone_trim",
+    "slab_walls:stone_brick_trim",
+    "slab_walls:sandstone_trim",
+    "slab_walls:smooth_sandstone_trim",
+    "slab_walls:cut_sandstone_trim",
+    "slab_walls:red_sandstone_trim",
+    "slab_walls:smooth_red_sandstone_trim",
+    "slab_walls:cut_red_sandstone_trim",
+    "slab_walls:granite_trim",
+    "slab_walls:polished_granite_trim",
+    "slab_walls:diorite_trim",
+    "slab_walls:polished_diorite_trim",
+    "slab_walls:cobbled_deepslate_trim",
+    "slab_walls:polished_deepslate_trim",
+    "slab_walls:deepslate_brick_trim",
+    "slab_walls:tuff_trim",
+    "slab_walls:polished_tuff_trim",
+    "slab_walls:tuff_brick_trim",
+    "slab_walls:andesite_trim",
+    "slab_walls:polished_andesite_trim",
+    "slab_walls:smooth_stone_trim"
+  ]
+}

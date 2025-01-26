@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_pillared_wall",
+  "pattern": [
+    "WLW"
+  ],
+  "key": {
+    "W": "minecraft:dark_oak_slab",
+    "L": "minecraft:dark_oak_log"
+  },
+  "result": {
+    "id": "slab_walls:dark_oak_pillared_wall",
+    "count": 4
+  }
+}

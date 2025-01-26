@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/slab_wall/base/log_wall_inventory",
+  "textures": {
+    "wall": "minecraft:block/#_log",
+    "post_top": "minecraft:block/#_log_top"
+  }
+}

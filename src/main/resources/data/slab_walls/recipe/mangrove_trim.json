@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "trim",
+  "pattern": [
+    "WW"
+  ],
+  "key": {
+    "W": "minecraft:mangrove_slab"
+  },
+  "result": {
+    "id": "slab_walls:mangrove_trim",
+    "count": 4
+  }
+}

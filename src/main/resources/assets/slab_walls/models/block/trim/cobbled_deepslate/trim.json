@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/trim/base/trim",
+  "textures": {
+    "side": "minecraft:block/cobbled_deepslate",
+    "top": "minecraft:block/cobbled_deepslate"
+  }
+}

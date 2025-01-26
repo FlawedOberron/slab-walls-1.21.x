@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/trim/base/outer_trim",
+  "textures": {
+    "side": "minecraft:block/andesite",
+    "top": "minecraft:block/andesite"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/trim/base/trim",
+  "textures": {
+    "side": "minecraft:block/birch_planks",
+    "top": "minecraft:block/birch_planks"
+  }
+}

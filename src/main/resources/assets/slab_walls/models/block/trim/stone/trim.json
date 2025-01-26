@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/trim/base/trim",
+  "textures": {
+    "side": "minecraft:block/stone",
+    "top": "minecraft:block/stone"
+  }
+}

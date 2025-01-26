@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_pillared_wall",
+  "pattern": [
+    "WLW"
+  ],
+  "key": {
+    "W": "minecraft:spruce_slab",
+    "L": "minecraft:spruce_log"
+  },
+  "result": {
+    "id": "slab_walls:spruce_pillared_wall",
+    "count": 4
+  }
+}

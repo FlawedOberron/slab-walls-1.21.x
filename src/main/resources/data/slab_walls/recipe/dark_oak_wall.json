@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_slab_wall",
+  "pattern": [
+    "WWW"
+  ],
+  "key": {
+    "W": "minecraft:dark_oak_slab"
+  },
+  "result": {
+    "id": "slab_walls:dark_oak_wall",
+    "count": 4
+  }
+}

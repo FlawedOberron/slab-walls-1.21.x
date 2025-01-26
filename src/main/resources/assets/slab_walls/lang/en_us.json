@@ -1,0 +1,88 @@
+{
+  "item.slab_walls.oak_log_wall": "Oak Wall",
+  "item.slab_walls.oak_wall": "Planked Oak Wall",
+  "item.slab_walls.oak_pillared_wall": "Pillared Oak Wall",
+
+  "item.slab_walls.dark_oak_log_wall": "Dark Oak Wall",
+  "item.slab_walls.dark_oak_wall": "Planked Dark Oak Wall",
+  "item.slab_walls.dark_oak_pillared_wall": "Pillared Dark Oak Wall",
+
+  "item.slab_walls.spruce_log_wall": "Spruce Wall",
+  "item.slab_walls.spruce_wall": "Planked Spruce Wall",
+  "item.slab_walls.spruce_pillared_wall": "Pillared Spruce Wall",
+
+  "item.slab_walls.birch_log_wall": "Birch Wall",
+  "item.slab_walls.birch_wall": "Planked Birch Wall",
+  "item.slab_walls.birch_pillared_wall": "Pillared Birch Wall",
+
+  "item.slab_walls.jungle_log_wall": "Jungle Wall",
+  "item.slab_walls.jungle_wall": "Planked Jungle Wall",
+  "item.slab_walls.jungle_pillared_wall": "Pillared Jungle Wall",
+
+  "item.slab_walls.acacia_log_wall": "Acacia Wall",
+  "item.slab_walls.acacia_wall": "Planked Acacia Wall",
+  "item.slab_walls.acacia_pillared_wall": "Pillared Acacia Wall",
+
+  "item.slab_walls.pale_oak_log_wall": "Pale Oak Wall",
+  "item.slab_walls.pale_oak_wall": "Planked Pale Oak Wall",
+  "item.slab_walls.pale_oak_pillared_wall": "Pillared Pale Oak Wall",
+
+  "item.slab_walls.mangrove_log_wall": "Mangrove Wall",
+  "item.slab_walls.mangrove_wall": "Planked Mangrove Wall",
+  "item.slab_walls.mangrove_pillared_wall": "Pillared Mangrove Wall",
+
+  "item.slab_walls.cherry_log_wall": "Cherry Wall",
+  "item.slab_walls.cherry_wall": "Planked Cherry Wall",
+  "item.slab_walls.cherry_pillared_wall": "Pillared Cherry Wall",
+
+  "item.slab_walls.crimson_log_wall": "Crimson Wall",
+  "item.slab_walls.crimson_wall": "Planked Crimson Wall",
+  "item.slab_walls.crimson_pillared_wall": "Pillared Crimson Wall",
+
+  "item.slab_walls.warped_log_wall": "Warped Wall",
+  "item.slab_walls.warped_wall": "Planked Warped Wall",
+  "item.slab_walls.warped_pillared_wall": "Pillared Warped Wall",
+
+  "item.slab_walls.bamboo_log_wall": "Bamboo Wall",
+  "item.slab_walls.bamboo_wall": "Planked Bamboo Wall",
+  "item.slab_walls.bamboo_pillared_wall": "Pillared Bamboo Wall",
+
+  "item.slab_walls.acacia_trim": "Acacia Trim",
+  "item.slab_walls.oak_trim": "Oak Trim",
+  "item.slab_walls.dark_oak_trim": "Dark Oak Trim",
+  "item.slab_walls.spruce_trim": "Spruce Trim",
+  "item.slab_walls.birch_trim": "Birch Trim",
+  "item.slab_walls.jungle_trim": "Jungle Trim",
+  "item.slab_walls.pale_oak_trim": "Pale Oak Trim",
+  "item.slab_walls.mangrove_trim": "Mangrove Trim",
+  "item.slab_walls.cherry_trim": "Cherry Trim",
+  "item.slab_walls.crimson_trim": "Crimson Trim",
+  "item.slab_walls.warped_trim": "Warped Trim",
+  "item.slab_walls.bamboo_trim": "Bamboo Trim",
+
+  "item.slab_walls.cobblestone_trim": "Cobblestone Trim",
+  "item.slab_walls.mossy_cobblestone_trim": "Mossy Cobblestone Trim",
+  "item.slab_walls.stone_trim": "Stone Trim",
+  "item.slab_walls.stone_brick_trim": "Stone Brick Trim",
+  "item.slab_walls.sandstone_trim": "Sandstone Trim",
+  "item.slab_walls.smooth_sandstone_trim": "Smooth Sandstone Trim",
+  "item.slab_walls.cut_sandstone_trim": "Cut Sandstone Trim",
+  "item.slab_walls.red_sandstone_trim": "Red Sandstone Trim",
+  "item.slab_walls.smooth_red_sandstone_trim": "Smooth Red Sandstone Trim",
+  "item.slab_walls.cut_red_sandstone_trim": "Cut Red Sandstone Trim",
+  "item.slab_walls.granite_trim": "Granite Trim",
+  "item.slab_walls.polished_granite_trim": "Polished Granite Trim",
+  "item.slab_walls.diorite_trim": "Diorite Trim",
+  "item.slab_walls.polished_diorite_trim": "Polished Diorite Trim",
+  "item.slab_walls.cobbled_deepslate_trim": "Cobbled Deepslate Trim",
+  "item.slab_walls.polished_deepslate_trim": "Polished Deepslate Trim",
+  "item.slab_walls.deepslate_brick_trim": "Deepslate Brick Trim",
+  "item.slab_walls.tuff_trim": "Tuff Trim",
+  "item.slab_walls.polished_tuff_trim": "Polished Tuff Trim",
+  "item.slab_walls.tuff_brick_trim": "Tuff Brick Trim",
+  "item.slab_walls.andesite_trim": "Andesite Trim",
+  "item.slab_walls.polished_andesite_trim": "Polished Andesite Trim",
+  "item.slab_walls.smooth_stone_trim": "Smooth Stone Trim",
+
+  "item_group.construction": "Construction Panels"
+}

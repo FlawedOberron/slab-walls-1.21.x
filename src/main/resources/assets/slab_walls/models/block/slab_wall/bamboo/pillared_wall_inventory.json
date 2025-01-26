@@ -1,0 +1,8 @@
+{
+  "parent": "slab_walls:block/slab_wall/base/pillared_wall",
+  "textures": {
+    "post": "minecraft:block/bamboo_block",
+    "post_top": "minecraft:block/bamboo_block_top",
+    "wall": "minecraft:block/bamboo_planks"
+  }
+}

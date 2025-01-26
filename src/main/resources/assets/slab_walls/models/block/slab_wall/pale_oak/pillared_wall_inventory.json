@@ -1,0 +1,8 @@
+{
+  "parent": "slab_walls:block/slab_wall/base/pillared_wall",
+  "textures": {
+    "post": "minecraft:block/pale_oak_log",
+    "post_top": "minecraft:block/pale_oak_log_top",
+    "wall": "minecraft:block/pale_oak_planks"
+  }
+}

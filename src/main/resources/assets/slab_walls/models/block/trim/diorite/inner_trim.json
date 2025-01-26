@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/trim/base/inner_trim",
+  "textures": {
+    "side": "minecraft:block/diorite",
+    "top": "minecraft:block/diorite"
+  }
+}

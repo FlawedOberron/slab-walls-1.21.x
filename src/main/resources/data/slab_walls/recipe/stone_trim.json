@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "trim",
+  "pattern": [
+    "WW"
+  ],
+  "key": {
+    "W": "minecraft:stone_slab"
+  },
+  "result": {
+    "id": "slab_walls:stone_trim",
+    "count": 4
+  }
+}

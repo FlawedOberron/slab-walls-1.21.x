@@ -1,0 +1,8 @@
+{
+  "parent": "slab_walls:block/slab_wall/base/pillared_wall",
+  "textures": {
+    "post": "minecraft:block/crimson_stem",
+    "post_top": "minecraft:block/crimson_stem_top",
+    "wall": "minecraft:block/crimson_planks"
+  }
+}

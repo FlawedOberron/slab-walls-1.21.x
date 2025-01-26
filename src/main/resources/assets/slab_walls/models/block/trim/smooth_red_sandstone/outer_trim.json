@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/trim/base/outer_trim",
+  "textures": {
+    "side": "minecraft:block/red_sandstone_top",
+    "top": "minecraft:block/red_sandstone_top"
+  }
+}

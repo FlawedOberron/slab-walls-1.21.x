@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_slab_wall",
+  "pattern": [
+    "WWW"
+  ],
+  "key": {
+    "W": "minecraft:#_slab"
+  },
+  "result": {
+    "id": "slab_walls:#_wall",
+    "count": 4
+  }
+}

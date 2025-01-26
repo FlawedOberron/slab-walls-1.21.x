@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_pillared_wall",
+  "pattern": [
+    "WLW"
+  ],
+  "key": {
+    "W": "minecraft:birch_slab",
+    "L": "minecraft:birch_log"
+  },
+  "result": {
+    "id": "slab_walls:birch_pillared_wall",
+    "count": 4
+  }
+}

@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "slab_walls",
+	"version": "1.0.0",
+	"name": "Wooden Slab Walls",
+	"description": "Adds walls for all wood types that behave like Stone Walls! And trim for a bunch of stone/wood types too.",
+	"authors": [
+		"ATJDesign"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/slab_walls/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.atjdesign.slab_walls.SlabWalls"
+		],
+		"client": [
+			"com.atjdesign.slab_walls.SlabWallsClient"
+		],
+		"fabric-datagen": [
+			"com.atjdesign.slab_walls.SlabWallsDataGenerator"
+		]
+	},
+	"mixins": [
+		"slab_walls.mixins.json",
+		{
+			"config": "slab_walls.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "1.21.x",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

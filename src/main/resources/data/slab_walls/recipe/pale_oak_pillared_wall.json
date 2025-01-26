@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_pillared_wall",
+  "pattern": [
+    "WLW"
+  ],
+  "key": {
+    "W": "minecraft:pale_oak_slab",
+    "L": "minecraft:pale_oak_log"
+  },
+  "result": {
+    "id": "slab_walls:pale_oak_pillared_wall",
+    "count": 4
+  }
+}
