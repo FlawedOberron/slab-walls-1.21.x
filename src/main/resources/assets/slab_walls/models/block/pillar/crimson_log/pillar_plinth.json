@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/pillar/base/pillar_plinth",
+  "textures": {
+    "all": "minecraft:block/crimson_stem",
+    "inlay_all": "minecraft:block/crimson_stem"
+  }
+}

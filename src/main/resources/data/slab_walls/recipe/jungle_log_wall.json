@@ -6,10 +6,10 @@
     "WWW"
   ],
   "key": {
-    "W": "minecraft:jungle_log"
+    "W": "slab_walls:jungle_log_slab"
   },
   "result": {
     "id": "slab_walls:jungle_log_wall",
-    "count": 8
+    "count": 3
   }
 }

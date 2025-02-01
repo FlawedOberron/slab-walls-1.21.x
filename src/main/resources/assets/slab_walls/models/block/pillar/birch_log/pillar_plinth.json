@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/pillar/base/pillar_plinth",
+  "textures": {
+    "all": "minecraft:block/birch_log",
+    "inlay_all": "minecraft:block/birch_log"
+  }
+}

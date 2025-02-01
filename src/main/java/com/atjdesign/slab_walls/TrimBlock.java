@@ -10,6 +10,12 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
+import net.minecraft.world.World;
+import net.minecraft.world.block.WireOrientation;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class TrimBlock extends StairsBlock {
     public static final MapCodec<TrimBlock> CODEC = Block.createCodec(TrimBlock::new);
@@ -18,6 +24,22 @@ public class TrimBlock extends StairsBlock {
     public MapCodec<TrimBlock> getCodec()
     {
         return  CODEC;
+    }
+
+    @Override
+    protected void neighborUpdate(BlockState state, World world, BlockPos pos, Block sourceBlock, @Nullable WireOrientation wireOrientation, boolean notify)
+    {
+        var upIsPillar = world.getBlockState(pos.up()).getBlock().getClass().getSimpleName().equals("PillarBlock");
+        var downIsPillar = world.getBlockState(pos.down()).getBlock().getClass().getSimpleName().equals("PillarBlock");
+
+        // Update up/down pillar blocks, they need to update their states
+        if (upIsPillar || downIsPillar)
+        {
+            //world.getBlockState(pos).updateNeighbors(world, pos, 0);
+            world.updateNeighbors(pos, sourceBlock);
+        }
+
+        super.neighborUpdate(state, world, pos, sourceBlock, wireOrientation, notify);
     }
 
     public TrimBlock()

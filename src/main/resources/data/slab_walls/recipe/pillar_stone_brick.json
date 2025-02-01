@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pillars",
+  "pattern": [
+    " P ",
+    "PCP",
+    " P "
+  ],
+  "key": {
+    "P": "minecraft:stone_bricks",
+    "C": "minecraft:stone_bricks"
+  },
+  "result": {
+    "id": "slab_walls:pillar_stone_brick",
+    "count": 8
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pillars",
+  "pattern": [
+    " P ",
+    "PCP",
+    " P "
+  ],
+  "key": {
+    "P": "minecraft:polished_diorite",
+    "C": "minecraft:polished_diorite"
+  },
+  "result": {
+    "id": "slab_walls:pillar_polished_diorite",
+    "count": 8
+  }
+}

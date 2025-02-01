@@ -23,6 +23,31 @@
     "slab_walls:tuff_brick_trim",
     "slab_walls:andesite_trim",
     "slab_walls:polished_andesite_trim",
-    "slab_walls:smooth_stone_trim"
+    "slab_walls:smooth_stone_trim",
+
+
+    "slab_walls:pillar_cobblestone",
+    "slab_walls:pillar_mossy_cobblestone",
+    "slab_walls:pillar_stone",
+    "slab_walls:pillar_stone_brick",
+    "slab_walls:pillar_sandstone",
+    "slab_walls:pillar_smooth_sandstone",
+    "slab_walls:pillar_cut_sandstone",
+    "slab_walls:pillar_red_sandstone",
+    "slab_walls:pillar_smooth_red_sandstone",
+    "slab_walls:pillar_cut_red_sandstone",
+    "slab_walls:pillar_granite",
+    "slab_walls:pillar_polished_granite",
+    "slab_walls:pillar_diorite",
+    "slab_walls:pillar_polished_diorite",
+    "slab_walls:pillar_cobbled_deepslate",
+    "slab_walls:pillar_polished_deepslate",
+    "slab_walls:pillar_deepslate_brick",
+    "slab_walls:pillar_tuff",
+    "slab_walls:pillar_polished_tuff",
+    "slab_walls:pillar_tuff_brick",
+    "slab_walls:pillar_andesite",
+    "slab_walls:pillar_polished_andesite",
+    "slab_walls:pillar_smooth_stone"
   ]
 }

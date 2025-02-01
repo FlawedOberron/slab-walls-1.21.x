@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": "minecraft:acacia_slab",
-    "L": "minecraft:acacia_log"
+    "L": "slab_walls:acacia_log_slab"
   },
   "result": {
     "id": "slab_walls:acacia_pillared_wall",
-    "count": 4
+    "count": 3
   }
 }

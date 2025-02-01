@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": "minecraft:spruce_slab",
-    "L": "minecraft:spruce_log"
+    "L": "slab_walls:spruce_log_slab"
   },
   "result": {
     "id": "slab_walls:spruce_pillared_wall",
-    "count": 4
+    "count": 3
   }
 }

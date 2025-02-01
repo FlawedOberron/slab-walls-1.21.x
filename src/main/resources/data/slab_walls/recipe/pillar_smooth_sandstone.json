@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pillars",
+  "pattern": [
+    " P ",
+    "PCP",
+    " P "
+  ],
+  "key": {
+    "P": "minecraft:smooth_sandstone",
+    "C": "minecraft:smooth_sandstone"
+  },
+  "result": {
+    "id": "slab_walls:pillar_smooth_sandstone",
+    "count": 8
+  }
+}

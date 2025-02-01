@@ -6,10 +6,10 @@
     "WWW"
   ],
   "key": {
-    "W": "minecraft:warped_stem"
+    "W": "slab_walls:warped_stem_slab"
   },
   "result": {
     "id": "slab_walls:warped_log_wall",
-    "count": 8
+    "count": 3
   }
 }

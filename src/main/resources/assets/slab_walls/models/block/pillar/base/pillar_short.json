@@ -1,0 +1,69 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "#all"
+	},
+	"elements": [
+		{
+			"name": "Inlay",
+			"from": [4, 0, 4],
+			"to": [12, 8, 12],
+			"color": 4,
+			"faces": {
+				"north": {"uv": [4, 8, 12, 16], "texture": "#inlay_all"},
+				"east": {"uv": [4, 8, 12, 16], "texture": "#inlay_all"},
+				"south": {"uv": [4, 8, 12, 16], "texture": "#inlay_all"},
+				"west": {"uv": [4, 8, 12, 16], "texture": "#inlay_all"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#inlay_all", "cullface": "down"}
+			}
+		},
+		{
+			"name": "NBar",
+			"from": [7, 0, 3],
+			"to": [9, 8, 4],
+			"color": 5,
+			"faces": {
+				"north": {"uv": [7, 8, 9, 16], "texture": "#all"},
+				"east": {"uv": [3, 8, 4, 16], "texture": "#all"},
+				"west": {"uv": [12, 8, 13, 16], "texture": "#all"},
+				"down": {"uv": [7, 3, 9, 4], "texture": "#all", "cullface": "down"}
+			}
+		},
+		{
+			"name": "EBar",
+			"from": [12, 0, 7],
+			"to": [13, 8, 9],
+			"color": 5,
+			"faces": {
+				"north": {"uv": [4, 8, 3, 16], "texture": "#all"},
+				"east": {"uv": [9, 8, 7, 16], "texture": "#all"},
+				"south": {"uv": [13, 8, 12, 16], "texture": "#all"},
+				"down": {"uv": [12, 7, 13, 9], "texture": "#all", "cullface": "down"}
+			}
+		},
+		{
+			"name": "SBar",
+			"from": [7, 0, 12],
+			"to": [9, 8, 13],
+			"color": 5,
+			"faces": {
+				"east": {"uv": [3, 8, 4, 16], "texture": "#all"},
+				"south": {"uv": [7, 8, 9, 16], "texture": "#all"},
+				"west": {"uv": [12, 8, 13, 16], "texture": "#all"},
+				"down": {"uv": [9, 12, 7, 13], "texture": "#all", "cullface": "down"}
+			}
+		},
+		{
+			"name": "WBar",
+			"from": [3, 0, 7],
+			"to": [4, 8, 9],
+			"color": 5,
+			"faces": {
+				"north": {"uv": [12, 8, 13, 16], "texture": "#all"},
+				"south": {"uv": [3, 8, 4, 16], "texture": "#all"},
+				"west": {"uv": [7, 8, 9, 16], "texture": "#all"},
+				"down": {"uv": [3, 9, 4, 7], "texture": "#all", "cullface": "down"}
+			}
+		}
+	]
+}

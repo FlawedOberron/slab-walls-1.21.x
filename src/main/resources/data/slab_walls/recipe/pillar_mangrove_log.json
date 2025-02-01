@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pillars",
+  "pattern": [
+    " P ",
+    "PCP",
+    " P "
+  ],
+  "key": {
+    "P": "minecraft:mangrove_log",
+    "C": "minecraft:mangrove_log"
+  },
+  "result": {
+    "id": "slab_walls:pillar_mangrove_log",
+    "count": 8
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pillars",
+  "pattern": [
+    " P ",
+    "PCP",
+    " P "
+  ],
+  "key": {
+    "P": "minecraft:bamboo_block",
+    "C": "minecraft:bamboo_block"
+  },
+  "result": {
+    "id": "slab_walls:pillar_bamboo_log",
+    "count": 8
+  }
+}

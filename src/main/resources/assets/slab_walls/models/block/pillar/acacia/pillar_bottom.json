@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/pillar/base/pillar_bottom",
+  "textures": {
+    "all": "minecraft:block/acacia_planks",
+    "inlay_all": "minecraft:block/acacia_planks"
+  }
+}

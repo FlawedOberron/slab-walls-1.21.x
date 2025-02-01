@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pillars",
+  "pattern": [
+    " P ",
+    "PCP",
+    " P "
+  ],
+  "key": {
+    "P": "minecraft:crimson_stem",
+    "C": "minecraft:crimson_stem"
+  },
+  "result": {
+    "id": "slab_walls:pillar_crimson_log",
+    "count": 8
+  }
+}

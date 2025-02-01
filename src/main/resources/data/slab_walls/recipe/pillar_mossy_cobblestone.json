@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pillars",
+  "pattern": [
+    " P ",
+    "PCP",
+    " P "
+  ],
+  "key": {
+    "P": "minecraft:mossy_cobblestone",
+    "C": "minecraft:mossy_cobblestone"
+  },
+  "result": {
+    "id": "slab_walls:pillar_mossy_cobblestone",
+    "count": 8
+  }
+}

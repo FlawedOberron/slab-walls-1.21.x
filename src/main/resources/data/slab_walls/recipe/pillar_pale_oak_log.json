@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pillars",
+  "pattern": [
+    " P ",
+    "PCP",
+    " P "
+  ],
+  "key": {
+    "P": "minecraft:pale_oak_log",
+    "C": "minecraft:pale_oak_log"
+  },
+  "result": {
+    "id": "slab_walls:pillar_pale_oak_log",
+    "count": 8
+  }
+}

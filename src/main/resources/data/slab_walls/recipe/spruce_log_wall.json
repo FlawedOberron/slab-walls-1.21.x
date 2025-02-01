@@ -6,10 +6,10 @@
     "WWW"
   ],
   "key": {
-    "W": "minecraft:spruce_log"
+    "W": "slab_walls:spruce_log_slab"
   },
   "result": {
     "id": "slab_walls:spruce_log_wall",
-    "count": 8
+    "count": 3
   }
 }

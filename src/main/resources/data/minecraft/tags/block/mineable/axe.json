@@ -49,6 +49,18 @@
     "slab_walls:cherry_trim",
     "slab_walls:crimson_trim",
     "slab_walls:warped_trim",
-    "slab_walls:bamboo_trim"
+    "slab_walls:bamboo_trim",
+
+    "slab_walls:oak_log_slab",
+    "slab_walls:dark_oak_log_slab",
+    "slab_walls:spruce_log_slab",
+    "slab_walls:birch_log_slab",
+    "slab_walls:jungle_log_slab",
+    "slab_walls:acacia_log_slab",
+    "slab_walls:pale_oak_log_slab",
+    "slab_walls:mangrove_log_slab",
+    "slab_walls:cherry_log_slab",
+    "slab_walls:crimson_stem_slab",
+    "slab_walls:warped_stem_slab"
   ]
 }

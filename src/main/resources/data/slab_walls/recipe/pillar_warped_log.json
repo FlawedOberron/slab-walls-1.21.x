@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pillars",
+  "pattern": [
+    " P ",
+    "PCP",
+    " P "
+  ],
+  "key": {
+    "P": "minecraft:warped_stem",
+    "C": "minecraft:warped_stem"
+  },
+  "result": {
+    "id": "slab_walls:pillar_warped_log",
+    "count": 8
+  }
+}

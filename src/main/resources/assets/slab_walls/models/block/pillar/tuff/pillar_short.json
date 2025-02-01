@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/pillar/base/pillar_short",
+  "textures": {
+    "all": "minecraft:block/tuff",
+    "inlay_all": "minecraft:block/tuff"
+  }
+}

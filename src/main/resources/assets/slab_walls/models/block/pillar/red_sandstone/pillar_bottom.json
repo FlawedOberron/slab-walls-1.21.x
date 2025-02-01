@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/pillar/base/pillar_bottom",
+  "textures": {
+    "all": "minecraft:block/red_sandstone_top",
+    "inlay_all": "minecraft:block/red_sandstone"
+  }
+}

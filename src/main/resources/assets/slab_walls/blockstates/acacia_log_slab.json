@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "slab_walls:block/slabs/acacia_log/slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/acacia_log"
+    },
+    "type=top": {
+      "model": "slab_walls:block/slabs/acacia_log/slab_top"
+    }
+  }
+}

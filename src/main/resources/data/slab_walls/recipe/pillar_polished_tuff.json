@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pillars",
+  "pattern": [
+    " P ",
+    "PCP",
+    " P "
+  ],
+  "key": {
+    "P": "minecraft:polished_tuff",
+    "C": "minecraft:polished_tuff"
+  },
+  "result": {
+    "id": "slab_walls:pillar_polished_tuff",
+    "count": 8
+  }
+}

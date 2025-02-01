@@ -6,10 +6,10 @@
     "WWW"
   ],
   "key": {
-    "W": "minecraft:crimson_stem"
+    "W": "slab_walls:crimson_stem_slab"
   },
   "result": {
     "id": "slab_walls:crimson_log_wall",
-    "count": 8
+    "count": 3
   }
 }

@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": "minecraft:oak_slab",
-    "L": "minecraft:oak_log"
+    "L": "slab_walls:oak_log_slab"
   },
   "result": {
     "id": "slab_walls:oak_pillared_wall",
-    "count": 4
+    "count": 3
   }
 }

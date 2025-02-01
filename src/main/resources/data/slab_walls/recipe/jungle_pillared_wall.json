@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": "minecraft:jungle_slab",
-    "L": "minecraft:jungle_log"
+    "L": "slab_walls:jungle_log_slab"
   },
   "result": {
     "id": "slab_walls:jungle_pillared_wall",
-    "count": 4
+    "count": 3
   }
 }

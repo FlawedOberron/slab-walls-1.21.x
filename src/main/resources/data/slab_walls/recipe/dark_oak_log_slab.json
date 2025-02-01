@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "trim",
+  "pattern": [
+    "WWW"
+  ],
+  "key": {
+    "W": "minecraft:dark_oak_log"
+  },
+  "result": {
+    "id": "slab_walls:dark_oak_log_slab",
+    "count": 6
+  }
+}

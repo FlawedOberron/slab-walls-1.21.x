@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "slab_walls:block/slabs/warped_stem/slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/warped_stem"
+    },
+    "type=top": {
+      "model": "slab_walls:block/slabs/warped_stem/slab_top"
+    }
+  }
+}

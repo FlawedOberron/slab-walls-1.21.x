@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pillars",
+  "pattern": [
+    " P ",
+    "PCP",
+    " P "
+  ],
+  "key": {
+    "P": "minecraft:acacia_log",
+    "C": "minecraft:acacia_log"
+  },
+  "result": {
+    "id": "slab_walls:pillar_acacia_log",
+    "count": 8
+  }
+}

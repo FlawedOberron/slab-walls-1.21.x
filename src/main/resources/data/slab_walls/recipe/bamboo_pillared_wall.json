@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": "minecraft:bamboo_slab",
-    "L": "minecraft:bamboo_block"
+    "L": "slab_walls:bamboo_block_slab"
   },
   "result": {
     "id": "slab_walls:bamboo_pillared_wall",
-    "count": 4
+    "count": 3
   }
 }

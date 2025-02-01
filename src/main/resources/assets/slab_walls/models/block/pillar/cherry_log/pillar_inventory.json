@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/pillar/base/pillar_inventory",
+  "textures": {
+    "all": "minecraft:block/cherry_log",
+    "inlay_all": "minecraft:block/cherry_log"
+  }
+}

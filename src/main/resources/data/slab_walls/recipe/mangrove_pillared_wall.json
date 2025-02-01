@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": "minecraft:mangrove_slab",
-    "L": "minecraft:mangrove_log"
+    "L": "slab_walls:mangrove_log_slab"
   },
   "result": {
     "id": "slab_walls:mangrove_pillared_wall",
-    "count": 4
+    "count": 3
   }
 }

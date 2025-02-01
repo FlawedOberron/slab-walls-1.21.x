@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": "minecraft:birch_slab",
-    "L": "minecraft:birch_log"
+    "L": "slab_walls:birch_log_slab"
   },
   "result": {
     "id": "slab_walls:birch_pillared_wall",
-    "count": 4
+    "count": 3
   }
 }

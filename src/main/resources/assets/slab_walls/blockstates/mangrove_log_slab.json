@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "slab_walls:block/slabs/mangrove_log/slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/mangrove_log"
+    },
+    "type=top": {
+      "model": "slab_walls:block/slabs/mangrove_log/slab_top"
+    }
+  }
+}

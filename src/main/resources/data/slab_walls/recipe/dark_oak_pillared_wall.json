@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": "minecraft:dark_oak_slab",
-    "L": "minecraft:dark_oak_log"
+    "L": "slab_walls:dark_oak_log_slab"
   },
   "result": {
     "id": "slab_walls:dark_oak_pillared_wall",
-    "count": 4
+    "count": 3
   }
 }

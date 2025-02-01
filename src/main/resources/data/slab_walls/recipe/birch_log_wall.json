@@ -6,10 +6,10 @@
     "WWW"
   ],
   "key": {
-    "W": "minecraft:birch_log"
+    "W": "slab_walls:birch_log_slab"
   },
   "result": {
     "id": "slab_walls:birch_log_wall",
-    "count": 8
+    "count": 3
   }
 }

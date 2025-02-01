@@ -1,0 +1,60 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "slab_walls:block/pillar/cobbled_deepslate/pillar_plinth"
+      },
+      "when": {
+        "down": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/pillar/cobbled_deepslate/pillar_plinth",
+        "uvlock": true,
+        "x": 180
+      },
+      "when": {
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/pillar/cobbled_deepslate/pillar_bottom",
+        "uvlock": true
+      },
+      "when": {
+        "bottom": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/pillar/cobbled_deepslate/pillar_bottom",
+        "uvlock": true,
+        "x": 180
+      },
+      "when": {
+        "top": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/pillar/cobbled_deepslate/pillar_short",
+        "uvlock": true
+      },
+      "when": {
+        "bottom": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/pillar/cobbled_deepslate/pillar_short",
+        "uvlock": true,
+        "x": 180
+      },
+      "when": {
+        "top": "false"
+      }
+    }
+  ]
+}

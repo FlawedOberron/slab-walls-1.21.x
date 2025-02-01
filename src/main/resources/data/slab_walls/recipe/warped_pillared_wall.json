@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": "minecraft:warped_slab",
-    "L": "minecraft:warped_stem"
+    "L": "slab_walls:warped_stem_slab"
   },
   "result": {
     "id": "slab_walls:warped_pillared_wall",
-    "count": 4
+    "count": 3
   }
 }

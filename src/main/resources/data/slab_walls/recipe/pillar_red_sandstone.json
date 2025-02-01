@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pillars",
+  "pattern": [
+    " P ",
+    "PCP",
+    " P "
+  ],
+  "key": {
+    "P": "minecraft:red_sandstone",
+    "C": "minecraft:red_sandstone"
+  },
+  "result": {
+    "id": "slab_walls:pillar_red_sandstone",
+    "count": 8
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/pillar/base/pillar_inventory",
+  "textures": {
+    "all": "minecraft:block/dark_oak_log",
+    "inlay_all": "minecraft:block/dark_oak_log"
+  }
+}

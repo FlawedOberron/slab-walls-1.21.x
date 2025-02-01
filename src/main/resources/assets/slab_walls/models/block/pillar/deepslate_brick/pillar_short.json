@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/pillar/base/pillar_short",
+  "textures": {
+    "all": "minecraft:block/deepslate_bricks",
+    "inlay_all": "minecraft:block/deepslate_bricks"
+  }
+}

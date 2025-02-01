@@ -62,18 +62,17 @@ public class ModItems {
     public static void Initialize() {
         // Register all of the wood wall blocks...
         for (String logPanelType : woodTypes) {
+            registerBlock(logPanelType + (logPanelType.equals("crimson") || logPanelType.equals("warped") ? "_stem" : logPanelType.equals("bamboo") ? "_block" : "_log") + "_slab", SlabBlock::new, AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.WOOD));
             registerBlock(logPanelType + "_wall", WallBlock::new, AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.WOOD));
             registerBlock(logPanelType + "_log_wall", WallBlock::new, AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.WOOD));
             registerBlock(logPanelType + "_pillared_wall", WallBlock::new, AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.WOOD));
+            registerBlock(logPanelType + "_trim", TrimBlock::new, AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.WOOD));
+            registerBlock("pillar_" + logPanelType, PillarBlock::new, AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.WOOD).nonOpaque());
+            registerBlock("pillar_" + logPanelType + "_log", PillarBlock::new, AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.WOOD).nonOpaque());
         }
-
-        // Register the Wood & Stone 'trim' blocks...
-        for (String woodPanelType : woodTypes) {
-            registerBlock(woodPanelType + "_trim", TrimBlock::new, AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.WOOD));
-        }
-
         for (String stonePanelType : stoneTypes) {
             registerBlock(stonePanelType + "_trim", TrimBlock::new, AbstractBlock.Settings.create().strength(4.0f).requiresTool().sounds(BlockSoundGroup.STONE));
+            registerBlock("pillar_" + stonePanelType, PillarBlock::new, AbstractBlock.Settings.create().strength(4.0f).requiresTool().sounds(BlockSoundGroup.STONE).nonOpaque());
         }
     }
 

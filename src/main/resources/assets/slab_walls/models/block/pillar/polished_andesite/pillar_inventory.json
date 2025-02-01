@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/pillar/base/pillar_inventory",
+  "textures": {
+    "all": "minecraft:block/polished_andesite",
+    "inlay_all": "minecraft:block/polished_andesite"
+  }
+}

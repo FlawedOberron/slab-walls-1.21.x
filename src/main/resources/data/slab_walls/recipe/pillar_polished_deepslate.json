@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pillars",
+  "pattern": [
+    " P ",
+    "PCP",
+    " P "
+  ],
+  "key": {
+    "P": "minecraft:polished_deepslate",
+    "C": "minecraft:polished_deepslate"
+  },
+  "result": {
+    "id": "slab_walls:pillar_polished_deepslate",
+    "count": 8
+  }
+}
