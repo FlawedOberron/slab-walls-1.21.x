@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_slim_log_wall",
+  "pattern": [
+    "W"
+  ],
+  "key": {
+    "W": "slab_walls:bamboo_log_wall"
+  },
+  "result": {
+    "id": "slab_walls:bamboo_slim_log_wall",
+    "count": 2
+  }
+}

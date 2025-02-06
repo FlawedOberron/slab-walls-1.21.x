@@ -1,0 +1,7 @@
+{
+  "parent": "slab_walls:block/slab_wall/base/slim_wall_inventory",
+  "textures": {
+    "wall": "minecraft:block/warped_stem",
+    "post_top": "minecraft:block/warped_stem_top"
+  }
+}

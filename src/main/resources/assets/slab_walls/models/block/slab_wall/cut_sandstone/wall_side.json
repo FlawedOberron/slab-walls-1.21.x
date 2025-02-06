@@ -1,0 +1,6 @@
+{
+  "parent": "slab_walls:block/slab_wall/base/template_wall_side",
+  "textures": {
+    "wall": "minecraft:block/cut_sandstone"
+  }
+}

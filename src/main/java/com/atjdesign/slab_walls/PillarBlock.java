@@ -7,6 +7,8 @@ import net.minecraft.block.enums.BlockHalf;
 import net.minecraft.block.enums.SlabType;
 import net.minecraft.block.enums.StairShape;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.fluid.FluidState;
+import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.RegistryKey;
@@ -42,6 +44,7 @@ public class PillarBlock extends Block implements net.minecraft.block.Waterlogga
     public static final BooleanProperty DOWN = BooleanProperty.of("down");
     public static final BooleanProperty TOP = BooleanProperty.of("top");
     public static final BooleanProperty BOTTOM = BooleanProperty.of("bottom");
+    public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
 
     @Override
     public MapCodec<PillarBlock> getCodec()
@@ -52,18 +55,32 @@ public class PillarBlock extends Block implements net.minecraft.block.Waterlogga
     public PillarBlock()
     {
         super(AbstractBlock.Settings.create());
-        setDefaultState(getDefaultState().with(UP, false).with(DOWN, false).with(TOP, false).with(BOTTOM, false).with(Properties.WATERLOGGED, false));
+        setDefaultState(getDefaultState().with(UP, false).with(DOWN, false).with(TOP, false).with(BOTTOM, false).with(WATERLOGGED, false));
     }
 
     public PillarBlock(Settings settings)
     {
         super(settings);
-        setDefaultState(getDefaultState().with(UP, false).with(DOWN, false).with(TOP, false).with(BOTTOM, false).with(Properties.WATERLOGGED, false));
+        setDefaultState(getDefaultState().with(UP, false).with(DOWN, false).with(TOP, false).with(BOTTOM, false).with(WATERLOGGED, false));
+    }
+
+    @Override
+    protected BlockState getStateForNeighborUpdate(BlockState state, WorldView world, ScheduledTickView tickView, BlockPos pos, Direction direction, BlockPos neighborPos, BlockState neighborState, Random random) {
+        if (state.get(WATERLOGGED)) {
+            tickView.scheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
+        }
+
+        return super.getStateForNeighborUpdate(state, world, tickView, pos, direction, neighborPos, neighborState, random);
+    }
+
+    @Override
+    public FluidState getFluidState(BlockState state) {
+        return state.get(WATERLOGGED) ? Fluids.WATER.getStill(false) : super.getFluidState(state);
     }
 
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-        builder.add(UP, DOWN, TOP, BOTTOM, Properties.WATERLOGGED);
+        builder.add(UP, DOWN, TOP, BOTTOM, WATERLOGGED);
 
         super.appendProperties(builder);
     }
@@ -85,12 +102,20 @@ public class PillarBlock extends Block implements net.minecraft.block.Waterlogga
         return false;
     }
 
+    @Override
+    public @Nullable BlockState getPlacementState(ItemPlacementContext ctx) {
+        return this.getDefaultState()
+                .with(WATERLOGGED, ctx.getWorld().getFluidState(ctx.getBlockPos()).isOf(Fluids.WATER));
+    }
+
     private BlockState UpdateBlockStateAtPos(BlockState state, World world, BlockPos pos)
     {
-        state.with(UP, false);
-        state.with(TOP, false);
-        state.with(DOWN, false);
-        state.with(BOTTOM, false);
+//        state.with(UP, false);
+//        state.with(TOP, false);
+//        state.with(DOWN, false);
+//        state.with(BOTTOM, false);
+//
+//        state.with(Properties.WATERLOGGED, world.getFluidState(pos).isOf(Fluids.WATER));
 
         var up = pos.up();
         var down = pos.down();
@@ -117,12 +142,13 @@ public class PillarBlock extends Block implements net.minecraft.block.Waterlogga
         else
         {
             var bType = uBS.getBlock().getClass().getSimpleName();
+            var name = uBS.getBlock().getTranslationKey();
 
             if (bType.equals("PillarBlock")) {
                 state = state.with(UP, false);
                 state = state.with(TOP, false);
             }
-            else if (bType.equals("StairsBlock"))
+            else if (bType.equals("StairsBlock") || name.endsWith("_stairs"))
             {
                 var bHalf = uBS.get(StairsBlock.HALF);
 
@@ -143,7 +169,7 @@ public class PillarBlock extends Block implements net.minecraft.block.Waterlogga
                 state = state.with(TOP, true);
 
             }
-            else if (bType.equals("SlabBlock"))
+            else if (bType.equals("SlabBlock") || name.endsWith("_slab"))
             {
                 var sType = uBS.get(Properties.SLAB_TYPE);
 
@@ -170,12 +196,13 @@ public class PillarBlock extends Block implements net.minecraft.block.Waterlogga
         else
         {
             var bType = dBS.getBlock().getClass().getSimpleName();
+            var name = dBS.getBlock().getTranslationKey();
 
             if (bType.equals("PillarBlock")) {
                 state = state.with(DOWN, false);
                 state = state.with(BOTTOM, false);
             }
-            else if (bType.equals("StairsBlock"))
+            else if (bType.equals("StairsBlock") || name.endsWith("_stairs"))
             {
                 var bHalf = dBS.get(StairsBlock.HALF);
 
@@ -196,7 +223,7 @@ public class PillarBlock extends Block implements net.minecraft.block.Waterlogga
                 state = state.with(BOTTOM, true);
 
             }
-            else if (bType.equals("SlabBlock"))
+            else if (bType.equals("SlabBlock") || name.endsWith("_slab"))
             {
                 var sType = dBS.get(Properties.SLAB_TYPE);
 
@@ -225,6 +252,16 @@ public class PillarBlock extends Block implements net.minecraft.block.Waterlogga
     @Override
     protected VoxelShape getCollisionShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         VoxelShape shape = VoxelShapes.cuboid((1f / 16f) * 4f, 0f, (1f / 16f) * 4f, (1f / 16f) * 12f, 1f, (1f / 16f) * 12f);
+
+        if (state.get(DOWN))
+        {
+            shape = VoxelShapes.combine(shape, VoxelShapes.cuboid(0f, -1f, 0f, 1f, 0f, 1f), BooleanBiFunction.OR);
+        }
+
+        if (state.get(UP))
+        {
+            shape = VoxelShapes.combine(shape, VoxelShapes.cuboid(0f, 1f, 0f, 1f, 2f, 1f), BooleanBiFunction.OR);
+        }
 
         return  shape;
     }

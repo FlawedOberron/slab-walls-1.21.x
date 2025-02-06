@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "minecraft:tuff",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "WW",
+    "WS"
+  ],
+  "result": {
+    "count": 6,
+    "id": "slab_walls:strut_tuff"
+  }
+}

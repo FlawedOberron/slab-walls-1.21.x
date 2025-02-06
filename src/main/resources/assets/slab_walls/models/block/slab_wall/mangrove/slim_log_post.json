@@ -1,0 +1,6 @@
+{
+  "parent": "slab_walls:block/slab_wall/base/slim_post",
+  "textures": {
+    "wall": "minecraft:block/mangrove_log"
+  }
+}

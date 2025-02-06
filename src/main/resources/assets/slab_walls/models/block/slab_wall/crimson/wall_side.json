@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/template_wall_side",
+  "parent": "slab_walls:block/slab_wall/base/template_wall_side",
   "textures": {
     "wall": "minecraft:block/crimson_planks"
   }

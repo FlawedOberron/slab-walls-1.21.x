@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stone_slim_wall",
+  "pattern": [
+    "W"
+  ],
+  "key": {
+    "W": "minecraft:granite_wall"
+  },
+  "result": {
+    "id": "slab_walls:granite_slim_wall",
+    "count": 2
+  }
+}

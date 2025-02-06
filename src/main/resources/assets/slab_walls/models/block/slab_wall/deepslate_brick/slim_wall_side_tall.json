@@ -1,0 +1,6 @@
+{
+  "parent": "slab_walls:block/slab_wall/base/template_slim_wall_side_tall",
+  "textures": {
+    "wall": "minecraft:block/deepslate_bricks"
+  }
+}

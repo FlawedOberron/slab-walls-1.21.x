@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stone_slim_wall",
+  "pattern": [
+    "W"
+  ],
+  "key": {
+    "W": "minecraft:cobbled_deepslate_wall"
+  },
+  "result": {
+    "id": "slab_walls:cobbled_deepslate_slim_wall",
+    "count": 2
+  }
+}

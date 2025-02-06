@@ -1,0 +1,194 @@
+{
+  "multiple": [
+    {
+      "apply": {
+        "model": "slab_walls:block/strut/strut_smooth_red_sandstone",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "facing": "north",
+        "half": "top"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/strut/strut_smooth_red_sandstone",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "facing": "east",
+        "half": "top"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/strut/strut_smooth_red_sandstone",
+        "uvlock": true
+      },
+      "when": {
+        "facing": "south",
+        "half": "top"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/strut/strut_smooth_red_sandstone",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "facing": "west",
+        "half": "top"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/strut/strut_smooth_red_sandstone",
+        "uvlock": true,
+        "x": 180
+      },
+      "when": {
+        "facing": "north",
+        "half": "bottom"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/strut/strut_smooth_red_sandstone",
+        "uvlock": true,
+        "x": 180,
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "half": "bottom"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/strut/strut_smooth_red_sandstone",
+        "uvlock": true,
+        "x": 180,
+        "y": 180
+      },
+      "when": {
+        "facing": "south",
+        "half": "bottom"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/strut/strut_smooth_red_sandstone",
+        "uvlock": true,
+        "x": 180,
+        "y": 270
+      },
+      "when": {
+        "facing": "west",
+        "half": "bottom"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "slab_walls:block/strut/base/strutbolt",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "facing": "north",
+        "half": "top",
+        "fenced": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/strut/base/strutbolt",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "facing": "east",
+        "half": "top",
+        "fenced": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/strut/base/strutbolt",
+        "uvlock": true
+      },
+      "when": {
+        "facing": "south",
+        "half": "top",
+        "fenced": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/strut/base/strutbolt",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "facing": "west",
+        "half": "top",
+        "fenced": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/strut/base/strutbolt",
+        "uvlock": true,
+        "x": 180
+      },
+      "when": {
+        "facing": "north",
+        "half": "bottom",
+        "fenced": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/strut/base/strutbolt",
+        "uvlock": true,
+        "x": 180,
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "half": "bottom",
+        "fenced": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/strut/base/strutbolt",
+        "uvlock": true,
+        "x": 180,
+        "y": 180
+      },
+      "when": {
+        "facing": "south",
+        "half": "bottom",
+        "fenced": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "slab_walls:block/strut/base/strutbolt",
+        "uvlock": true,
+        "x": 180,
+        "y": 270
+      },
+      "when": {
+        "facing": "west",
+        "half": "bottom",
+        "fenced": "true"
+      }
+    }
+  ]
+}

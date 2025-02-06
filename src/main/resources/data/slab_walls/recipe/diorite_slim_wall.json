@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stone_slim_wall",
+  "pattern": [
+    "W"
+  ],
+  "key": {
+    "W": "minecraft:diorite_wall"
+  },
+  "result": {
+    "id": "slab_walls:diorite_slim_wall",
+    "count": 2
+  }
+}

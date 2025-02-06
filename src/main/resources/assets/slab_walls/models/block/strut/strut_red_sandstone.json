@@ -1,0 +1,6 @@
+{
+  "parent": "slab_walls:block/strut/base/strut",
+  "textures": {
+    "all": "minecraft:block/red_sandstone"
+  }
+}

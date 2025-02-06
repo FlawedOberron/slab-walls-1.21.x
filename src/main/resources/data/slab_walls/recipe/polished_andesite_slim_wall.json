@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stone_slim_wall",
+  "pattern": [
+    "W"
+  ],
+  "key": {
+    "W": "slab_walls:polished_andesite_wall"
+  },
+  "result": {
+    "id": "slab_walls:polished_andesite_slim_wall",
+    "count": 2
+  }
+}
