@@ -1,5 +1,5 @@
 {
-  "multiple": [
+  "multipart": [
     {
       "apply": {
         "model": "slab_walls:block/strut/strut_cut_sandstone",
